@@ -791,7 +791,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://formspree.io/forms/xeojwvby" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
+                <form action="https://formspree.io/f/xeojwvby" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form! please wait for assistance!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -800,15 +800,17 @@
                     </div>
                     <div class="dragArea row">
                         <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-2-uotfkSlZON">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-2-uotfkSlZON" required>
                         </div>
                         <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-2-uotfkSlZON">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-2-uotfkSlZON" required>
                         </div>
                         <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="message" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-form-2-uotfkSlZON"></textarea>
+                            <textarea name="message" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-form-2-uotfkSlZON" required></textarea>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-black display-7">Send It!</button></div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                            <button type="submit" class="btn btn-black display-7">Send It!</button>
+                        </div>
                     </div>
                 </form>
             </div>
